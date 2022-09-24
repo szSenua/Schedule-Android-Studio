@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:columnCount="6"
+    android:rowCount="9">
+
+
+
+    <TextView
+        android:id="@+id/t0"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textAlignment="center"
+        android:textColor="#238D82"
+        android:text="GSM2A"
+        android:textSize="30sp"
+        android:background="@drawable/textview_border_gray"
+        android:layout_columnSpan="6"/>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text=""
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_gray" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textAlignment="center"
+        android:textColor="#238D82"
+        android:text="Lunes"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_gray" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textAlignment="center"
+        android:textColor="#238D82"
+        android:text="Martes"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_gray" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textAlignment="center"
+        android:textColor="#238D82"
+        android:text="Miércoles"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_gray" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textAlignment="center"
+        android:textColor="#238D82"
+        android:text="Jueves"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_gray" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textAlignment="center"
+        android:textColor="#238D82"
+        android:text="Viernes"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_gray" />
+
+    <!-- terminan los dias de la semana -->
+
+    <!-- Empiezan la primera hora y asignaturas -->
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textColor="#238D82"
+        android:text="16:00 - 16:50"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_gray" />
+
+    <TextView
+        android:id="@+id/t8"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="DesDeInt"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_turquoise"
+        android:layout_rowSpan="2"/>
+
+    <TextView
+        android:id="@+id/t9"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="EmpEInEmp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_lilium"
+        android:layout_rowSpan="2"/>
+
+    <TextView
+        android:id="@+id/t10"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="Acceso a Datos"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_brown"
+        android:layout_rowSpan="2"/>
+
+    <TextView
+        android:id="@+id/t11"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="ProDeSerYPro"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_yellow"
+        android:layout_rowSpan="2"/>
+
+    <TextView
+        android:id="@+id/t12"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="ProMulYDisMóv"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_blue"
+        android:layout_rowSpan="2"/>
+
+    <!-- Termina la primera hora -->
+    <!-- Empieza segunda hora y mismas asignaturas -->
+
+    <TextView
+        android:id="@+id/t13"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textColor="#238D82"
+        android:text="16:55 / 17:45"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_gray" />
+
+    <!-- Termina segunda hora -->
+    <!-- Tercera hora -->
+
+    <TextView
+        android:id="@+id/t14"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textColor="#238D82"
+        android:text="17:50 / 18:40"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_gray" />
+
+    <TextView
+        android:id="@+id/t15"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="SisDeGes"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_red"
+        android:layout_rowSpan="2"/>
+
+    <TextView
+        android:id="@+id/t16"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="ProDeServ"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_yellow"
+        android:layout_rowSpan="2"/>
+
+    <TextView
+        android:id="@+id/t17"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="SisDeGes"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_red"
+        android:layout_rowSpan="2"/>
+
+    <TextView
+        android:id="@+id/t18"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textAlignment="center"
+        android:text="EmpEInEmp"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_lilium"
+        />
+
+    <TextView
+        android:id="@+id/t19"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="Inglés"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_orange"
+        android:layout_rowSpan="2"/>
+
+    <!-- Termina tercera hora -->
+    <!-- Empieza cuarta hora -->
+
+    <TextView
+        android:id="@+id/t20"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textColor="#238D82"
+        android:text="18:45 / 19:35"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_gray" />
+
+    <TextView
+        android:id="@+id/t21"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="DesDeInt"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_turquoise" />
+
+    <!--Termina la cuarta hora -->
+    <!-- Recreo -->
+
+    <TextView
+        android:id="@+id/t22"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textColor="#238D82"
+        android:text="19:35 / 20:00"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_gray" />
+
+    <TextView
+        android:id="@+id/t23"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textColor="#238D82"
+        android:text="Recreo"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_gray"
+        android:layout_columnSpan="5"/>
+
+    <!-- Termina el recreo -->
+
+    <!-- Empieza quinta hora -->
+
+    <TextView
+        android:id="@+id/t24"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textColor="#238D82"
+        android:text="20:00 / 20:50"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_gray" />
+
+    <TextView
+        android:id="@+id/t25"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="AccDatos"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_brown"
+        android:layout_rowSpan="2"/>
+
+    <TextView
+        android:id="@+id/t26"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="ProMulYDis"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_blue"
+        android:layout_rowSpan="2"/>
+
+    <TextView
+        android:id="@+id/t27"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="DesDeInt"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_turquoise"
+        android:layout_rowSpan="2"/>
+
+    <TextView
+        android:id="@+id/t28"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textAlignment="center"
+        android:text="DesDeInt"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_turquoise" />
+
+    <TextView
+        android:id="@+id/t29"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="AccDatos"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_brown"
+        android:layout_rowSpan="2"/>
+
+    <!-- Termina Quinta hora -->
+    <!-- Empieza sexta -->
+
+    <TextView
+        android:id="@+id/t30"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textColor="#238D82"
+        android:text="20:55 / 21:45"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_gray" />
+
+    <TextView
+        android:id="@+id/t31"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textAlignment="center"
+        android:text="SisDeGes"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border_red" />
+
+
+
+
+</GridLayout>
